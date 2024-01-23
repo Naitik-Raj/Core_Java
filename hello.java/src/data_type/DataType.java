@@ -13,7 +13,7 @@ public class DataType {
 		byte byteMaxVariable = Byte.MAX_VALUE;
 		byte byteMinVariable = Byte.MIN_VALUE;
 		
-		System.out.println("Byte Max:" + byteMaxVariable + "Byte Min:" + byteMinVariable);
+		System.out.println("Byte Max:" + byteMaxVariable + " Byte Min:" + byteMinVariable);
 		
 	}
 	
@@ -21,7 +21,7 @@ public class DataType {
 		short shortMaxVariable = Short.MAX_VALUE;
 		short shortMinVariable = Short.MIN_VALUE;
 		
-		System.out.println("Short Max:" + shortMaxVariable + "Short Min:" + shortMinVariable);
+		System.out.println("Short Max:" + shortMaxVariable + " Short Min:" + shortMinVariable);
 		
 	}
 	
@@ -29,7 +29,14 @@ public class DataType {
 		int intMaxVariable = Integer.MAX_VALUE;
 		int intMinVariable = Integer.MIN_VALUE;
 		
-		System.out.println("Int Max:" + intMaxVariable + "Int Min:" + intMinVariable);
+		System.out.println("Int Max:" + intMaxVariable + " Int Min:" + intMinVariable);
+		
+	}
+	public static void longDataType() {
+		long longMaxVariable = Long.MAX_VALUE;
+		long intMinVariable = Long.MIN_VALUE;
+		
+		System.out.println("Long Max:" + longMaxVariable + " Long Min:" + longMinVariable);
 		
 	}
 
