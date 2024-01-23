@@ -34,7 +34,7 @@ public class DataType {
 	}
 	public static void longDataType() {
 		long longMaxVariable = Long.MAX_VALUE;
-		long intMinVariable = Long.MIN_VALUE;
+		long longMinVariable = Long.MIN_VALUE;
 		
 		System.out.println("Long Max:" + longMaxVariable + " Long Min:" + longMinVariable);
 		
