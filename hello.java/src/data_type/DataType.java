@@ -7,6 +7,7 @@ public class DataType {
 		byteDataType();
 		shortDataType();
 		intDataType();
+		longDataType();
 		
 	}
 	public static void byteDataType() {
