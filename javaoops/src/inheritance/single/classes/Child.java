@@ -1,14 +1,16 @@
 package inheritance.single.classes;
 
-public class Child  extends Parent{
-	private String firstName;
-	private String lastName;
-
-	@Override
-	public String toString() {
-		return "Child [firstName=" + firstName + "]";
+public class Child extends Parent {
+	String firstName;
+	public Child() {
+		super();
 	}
-
+	//variable shadowing
+	public Child(String firstName, String lastName) {
+		super(lastName); //parameterized constructor of super class
+		this.firstName=firstName;
+//		super(lastName); //always use super in first line
+	}
 	public String getFirstName() {
 		return firstName;
 	}
@@ -17,15 +19,9 @@ public class Child  extends Parent{
 		this.firstName = firstName;
 	}
 
-	public String getLastName() {
-		return lastName;
+	@Override
+	public String toString() {
+		return "Child [firstName=" + firstName + "]";
 	}
-
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
-
-	
-	
 	
 }
